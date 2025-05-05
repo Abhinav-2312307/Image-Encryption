@@ -21,14 +21,14 @@ export default function Footer() {
           <Link href="#terms" className="hover:text-primary transition-colors">
             Terms of Service
           </Link>
-          <Link href="#contact" className="hover:text-primary transition-colors">
+          <Link href="https://www.linkedin.com/in/abhinav-sahu-865a01297/" className="hover:text-primary transition-colors">
             Contact
           </Link>
         </div>
         
         <div className="flex items-center gap-4">
           <a 
-            href="https://github.com" 
+            href="https://github.com/Abhinav-2312307" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
@@ -41,7 +41,7 @@ export default function Footer() {
       
       <div className="container mt-8 pt-4 border-t text-center text-xs text-muted-foreground">
         <p className="flex items-center justify-center gap-1">
-          Made with <Heart className="h-3 w-3 text-red-500 fill-red-500" /> using Next.js and Tailwind CSS
+          Made with <Heart className="h-3 w-3 text-red-500 fill-red-500" /> by Abhinav Sahu
         </p>
         <p className="mt-1">
           © {new Date().getFullYear()} CryptoImage. All rights reserved.
